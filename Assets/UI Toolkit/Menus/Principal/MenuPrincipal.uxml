@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/EstilosBotones.uss?fileID=7433441132597879392&amp;guid=a765a3d73d871dc47a22535571a1042c&amp;type=3#EstilosBotones" />
+    <ui:VisualElement name="Botones" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center; justify-content: center; align-self: stretch; flex-direction: column; position: absolute; left: 99px; top: 62px; bottom: 640px; width: 330px; margin-top: 10px;">
+        <ui:Button text="JUGAR" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bJugar" class="boton" />
+        <ui:Button text="LOGROS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bLogros" class="boton" />
+        <ui:Button text="OPCIONES" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bOpciones" class="boton" />
+        <ui:Button text="SALIR" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bSalir" class="boton" />
+    </ui:VisualElement>
+    <ui:VisualElement name="PantallaPartida" style="flex-grow: 1; display: none; align-items: center; justify-content: center; flex-direction: column; position: absolute; left: 99px; top: 62px; bottom: 640px; width: 330px; margin-top: 10px;">
+        <ui:Button text="NUEVA PARTIDA" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bNuevaPartida" class="boton" />
+        <ui:Button text="CARGAR PARTIDA" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bCargarPartida" class="boton" />
+        <ui:Button text="VOLVER" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bVolver" class="boton" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Gato" picking-mode="Ignore" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Arte/UI/logo.png?fileID=21300000&amp;guid=a59f6ee6901f1ca4b9d715edb2e3afcb&amp;type=3#logo&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; left: 700px; top: 599px; width: 741px; height: 588px;" />
+</ui:UXML>

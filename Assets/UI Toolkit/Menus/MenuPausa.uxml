@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/EstilosBotones.uss?fileID=7433441132597879392&amp;guid=a765a3d73d871dc47a22535571a1042c&amp;type=3#EstilosBotones" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: center; align-self: stretch; position: absolute; top: 178px; left: 73px; height: 516px; width: 1152px; flex-wrap: nowrap;">
+        <ui:Button text="RESTART" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RestartButton" class="boton" style="margin-left: 10px; margin-right: 10px;" />
+        <ui:Button text="CONTINUAR" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResumeButton" class="boton" style="margin-left: 10px; margin-right: 10px;" />
+        <ui:Button text="SALIR" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" class="boton" style="margin-left: 10px; margin-right: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>
