@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/EstilosInterfaz/EstilosBotones.uss?fileID=7433441132597879392&amp;guid=a765a3d73d871dc47a22535571a1042c&amp;type=3#EstilosBotones" />
+    <ui:VisualElement name="Fila" class="logro-fila">
+        <ui:VisualElement name="Icono" class="logro-icono" />
+        <ui:VisualElement name="Textos" style="flex-grow: 1; flex-shrink: 1;">
+            <ui:Label text="Nombre" name="Nombre" class="logro-nombre" />
+            <ui:Label text="Descripción" name="Descripcion" class="logro-descripcion" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

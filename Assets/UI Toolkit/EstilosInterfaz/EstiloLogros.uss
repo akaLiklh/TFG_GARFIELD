@@ -1,0 +1,100 @@
+.titulo {
+    -unity-font: url("project://database/Assets/Arte/UI/Prince%20Valiant.ttf?fileID=12800000&guid=3df356ab79fc69844ac6cb83cdfdb6e9&type=3#Prince Valiant");
+    -unity-font-definition: initial;
+    font-size: 56px;
+    color: rgb(240, 230, 180);
+    -unity-text-align: middle-center;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.9);
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.panel-logros {
+    flex-grow: 1;
+    width: 60%;
+    align-self: center;
+    background-color: rgba(10, 10, 15, 0.75);
+    border-width: 2px;
+    border-color: rgb(159, 159, 106);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.logro-fila {
+    flex-direction: row;
+    align-items: center;
+    min-height: 80px;
+    margin-bottom: 8px;
+    padding: 10px 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left-width: 4px;
+    border-left-color: rgb(159, 159, 106);
+    border-radius: 4px;
+}
+
+.logro-icono {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    margin-right: 16px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.logro-nombre {
+    -unity-font: url("project://database/Assets/Arte/UI/Prince%20Valiant.ttf?fileID=12800000&guid=3df356ab79fc69844ac6cb83cdfdb6e9&type=3#Prince Valiant");
+    -unity-font-definition: initial;
+    font-size: 30px;
+    color: rgb(240, 230, 180);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.9);
+    margin-bottom: 2px;
+}
+
+.logro-descripcion {
+    -unity-font: url("project://database/Assets/Arte/UI/Prince%20Valiant.ttf?fileID=12800000&guid=3df356ab79fc69844ac6cb83cdfdb6e9&type=3#Prince Valiant");
+    -unity-font-definition: initial;
+    font-size: 22px;
+    color: rgb(180, 180, 140);
+    white-space: normal;
+}
+
+.bloqueado {
+    opacity: 0.4;
+    border-left-color: rgb(90, 90, 90);
+}
+
+.desbloqueado {
+    background-color: rgba(60, 50, 20, 0.6);
+    border-left-color: rgb(240, 230, 180);
+}
+
+.panel-logros .unity-scroller--vertical {
+    width: 10px;
+    margin-left: 6px;
+    border-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.panel-logros .unity-base-slider__tracker {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-width: 1px;
+    border-color: rgb(80, 80, 55);
+    border-radius: 5px;
+}
+
+.panel-logros .unity-base-slider__dragger {
+    background-color: rgb(159, 159, 106);
+    border-width: 0;
+    border-radius: 5px;
+}
+
+.panel-logros .unity-base-slider__dragger:hover {
+    background-color: rgb(240, 230, 180);
+}
+
+.panel-logros .unity-scroller__low-button {
+    display: none;
+}
+
+.panel-logros .unity-scroller__high-button {
+    display: none;
+}

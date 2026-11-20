@@ -1,5 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/EstilosBotones.uss" />
+    <Style src="project://database/Assets/UI%20Toolkit/EstilosInterfaz/EstilosBotones.uss?fileID=7433441132597879392&amp;guid=a765a3d73d871dc47a22535571a1042c&amp;type=3#EstilosBotones" />
     <ui:VisualElement name="Oscurecer" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.6); align-items: center; justify-content: center;">
         <ui:VisualElement name="Panel" style="width: 700px; padding: 40px; background-color: rgba(24, 16, 13, 0.95); border-width: 3px; border-color: rgb(106, 84, 37); border-radius: 10px; align-items: center; color: rgb(240, 230, 180); font-size: 36px;">
             <ui:Label text="¿Seguro que quieres salir?" style="margin-bottom: 30px;" />

@@ -1,0 +1,26 @@
+.titulo {
+    -unity-font: url("project://database/Assets/Arte/UI/Prince%20Valiant.ttf?fileID=12800000&guid=3df356ab79fc69844ac6cb83cdfdb6e9&type=3#Prince Valiant");
+    -unity-font-definition: initial;
+    font-size: 48px;
+    color: rgb(159, 159, 106);
+    -unity-text-align: middle-center;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.logro-nombre {
+    -unity-font: url("project://database/Assets/Arte/UI/Prince%20Valiant.ttf?fileID=12800000&guid=3df356ab79fc69844ac6cb83cdfdb6e9&type=3#Prince Valiant");
+    -unity-font-definition: initial;
+    font-size: 24px;
+    color: rgb(240, 230, 180);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+.logro-descripcion {
+    -unity-font: url("project://database/Assets/Arte/UI/Prince%20Valiant.ttf?fileID=12800000&guid=3df356ab79fc69844ac6cb83cdfdb6e9&type=3#Prince Valiant");
+    -unity-font-definition: initial;
+    font-size: 18px;
+    color: rgb(159, 159, 106);
+    white-space: normal;
+}

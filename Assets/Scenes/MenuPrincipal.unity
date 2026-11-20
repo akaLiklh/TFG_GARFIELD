@@ -549,6 +549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1778924047}
   - component: {fileID: 1778924046}
+  - component: {fileID: 1778924048}
   m_Layer: 5
   m_Name: MenuLogros
   m_TagString: Untagged
@@ -587,6 +588,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1778924048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778924045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc9753e5c8b75469875d60a4f16fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuPrincipal: {fileID: 1105685702}
+  plantillaLogro: {fileID: 9197481963319205126, guid: 72375e7c4a251054e894ee1cfdcde5ee, type: 3}
+  logros:
+  - nombre: "\xBFPor un mal hechizo?"
+    descripcion: Entraste por primera vez a un Vodoy.
+    icono: {fileID: 21300000, guid: 7e4a2fef9eb4dc94391853483d0c1f91, type: 3}
+    desbloqueado: 0
+  - nombre: "Otra vez \xBFaqu\xED?"
+    descripcion: Muere por primera vez.
+    icono: {fileID: 0}
+    desbloqueado: 0
+  - nombre: Imparable
+    descripcion: Completa al menos 3 salas sin morir.
+    icono: {fileID: 0}
+    desbloqueado: 0
+  - nombre: "\xBFY eso era un cofre?"
+    descripcion: "D\xE9jate morder por un m\xEDmico."
+    icono: {fileID: -1356696665, guid: d7a82e5d5b73edf40af0d2facfbb98b7, type: 3}
+    desbloqueado: 0
+  - nombre: "\xA1Todos en marcha!"
+    descripcion: Desbloquea todos los personajes.
+    icono: {fileID: 21300000, guid: 4f698b9c98f800a4fb9fa9e6d76a675c, type: 3}
+    desbloqueado: 0
+  - nombre: EZ
+    descripcion: "Mata a Elowyn en su verdadera forma sin recibir da\xF1o."
+    icono: {fileID: 0}
+    desbloqueado: 0
+  - nombre: "\xA1Rompehechizos!"
+    descripcion: "Parece que te has reunido con tus amigos y has recuperado todos
+      los objetos,pero...\xBFpor qu\xE9 sientes que algo est\xE1 mal?"
+    icono: {fileID: 0}
+    desbloqueado: 0
+  - nombre: Leyenda
+    descripcion: Consigue todos los logros.
+    icono: {fileID: 0}
+    desbloqueado: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

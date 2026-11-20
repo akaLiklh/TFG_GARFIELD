@@ -1,11 +1,12 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/EstilosBotones.uss?fileID=7433441132597879392&amp;guid=a765a3d73d871dc47a22535571a1042c&amp;type=3#EstilosBotones" />
+    <Style src="project://database/Assets/UI%20Toolkit/EstilosInterfaz/EstilosBotones.uss?fileID=7433441132597879392&amp;guid=a765a3d73d871dc47a22535571a1042c&amp;type=3#EstilosBotones" />
     <ui:VisualElement name="Botones" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center; justify-content: center; align-self: stretch; flex-direction: column; position: absolute; left: 99px; top: 62px; bottom: 640px; width: 330px; margin-top: 10px;">
         <ui:Button text="JUGAR" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bJugar" class="boton" />
         <ui:Button text="LOGROS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bLogros" class="boton" />
         <ui:Button text="OPCIONES" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bOpciones" class="boton" />
         <ui:Button text="SALIR" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bSalir" class="boton" />
     </ui:VisualElement>
+    <ui:VisualElement name="Titulo" picking-mode="Ignore" style="position: absolute; top: 421px; left: 1095px; translate: -50% 0; width: 756px; height: 204px; background-image: url(&quot;project://database/Assets/Arte/UI/MenuPrincipal/Portada.png?fileID=2800000&amp;guid=80e9c3764087dc146b5abe5f5a900b9c&amp;type=3#Portada&quot;); -unity-background-scale-mode: scale-to-fit;" />
     <ui:VisualElement name="PantallaPartida" style="flex-grow: 1; display: none; align-items: center; justify-content: center; flex-direction: column; position: absolute; left: 99px; top: 62px; bottom: 640px; width: 330px; margin-top: 10px;">
         <ui:Button text="NUEVA PARTIDA" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bNuevaPartida" class="boton" />
         <ui:Button text="CARGAR PARTIDA" parse-escape-sequences="true" display-tooltip-when-elided="true" name="bCargarPartida" class="boton" />

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
->
-    
-</engine:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/EstilosInterfaz/EstilosBotones.uss?fileID=7433441132597879392&amp;guid=a765a3d73d871dc47a22535571a1042c&amp;type=3#EstilosBotones" />
+    <Style src="project://database/Assets/UI%20Toolkit/EstilosInterfaz/EstiloLogros.uss?fileID=7433441132597879392&amp;guid=66f9a3bcde4cd9842999e8de42f3772e&amp;type=3#EstiloLogros" />
+    <ui:VisualElement name="Fondo" style="flex-grow: 1; padding-bottom: 30px;">
+        <ui:Label text="Logros" name="txtLogros" class="titulo" />
+        <ui:ScrollView name="ListaLogros" class="panel-logros" />
+        <ui:Button text="Volver" name="bVolver" class="boton" style="align-self: center; margin-top: 20px;" />
+    </ui:VisualElement>
+</ui:UXML>
